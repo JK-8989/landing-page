@@ -1,10 +1,16 @@
+/* Global styling starts from here */
+
 body {
   height: 100vh;
 }
+/* Global styling ends here */
+/* ------------------------------------------- */
+/* Header styling starts from here */
 
 header {
-  height: 400px;
+  height: 500px;
 }
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -37,4 +43,63 @@ header{
   background-color: rgb(171, 124, 215);
 }
 
+/* Header styling ends here */
+/* ------------------------------------------- */
+/* Main first-section styling stars from here */
+
+.facts-container {
+  width: 180px;
+}
+
+.ran-facts {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+ .read_more {
+  padding: 10px;
+  margin-top: 0;
+  text-align: center;
+ }
+
+.section_1 {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+
+.first-section {
+  height: 450px;
+}
+/* Main first-section styling ends here */
+/* ------------------------------------------- */
+/* Main second-section styling stars from here */
+
+.section_2 {
+  height: 200px;
+  background-color: #ddd;
+}
+
+blockquote {
+  text-align: center;
+  line-height: 4;
+  position: relative;
+  top: 20%;
+}
+#name {
+  margin-left: 300px;
+}
+/* Main second-section ends here */
+/* ------------------------------------------- */
 
