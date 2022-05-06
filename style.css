@@ -1,0 +1,22 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 45%;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.heading {
+  width: 50%;
+  margin: 8% 40% 10% 8%;
+}
+
+#btn_1 {
+  padding: 8px 30px;
+}
+
+
