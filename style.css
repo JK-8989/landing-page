@@ -2,6 +2,7 @@
 
 body {
   height: 100vh;
+  color: rgb(36, 36, 36);
 }
 /* Global styling ends here */
 /* ------------------------------------------- */
@@ -16,6 +17,7 @@ header {
   justify-content: center;
   gap: 400px;
   padding-top: 10px;
+  color: rgb(85, 84, 84);
 }
 
 .navbar-menu {
@@ -34,6 +36,7 @@ header {
   border-radius: 10px;
   border-style: none;
   background-color: rgba(244, 247, 79, 0.764);
+  color: rgb(37, 37, 37);
 }
 
 .btn:hover {
