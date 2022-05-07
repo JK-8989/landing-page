@@ -14,7 +14,7 @@ header {
 .flex-container {
   display: flex;
   justify-content: center;
-  gap: 40%;
+  gap: 400px;
   padding-top: 10px;
 }
 
@@ -25,14 +25,15 @@ header {
 }
 
 .heading {
-  width: 40%;
-  margin: 8% 40% 10% 10%;
+  width: 330px;
+  margin: 100px 0 0 20%;
 }
 
 .btn {
   padding: 8px 30px;
   border-radius: 10px;
   border-style: none;
+  background-color: rgba(244, 247, 79, 0.764);
 }
 
 .btn:hover {
@@ -40,7 +41,7 @@ header {
 }
 
 header{
-  background-color: rgb(171, 124, 215);
+  background-color: rgba(138, 89, 184, 0.727);
 }
 
 /* Header styling ends here */
@@ -87,7 +88,7 @@ h2 {
 /* Main second-section styling stars from here */
 
 .section_2 {
-  height: 200px;
+  height: 300px;
   background-color: #ddd;
 }
 
@@ -95,7 +96,7 @@ blockquote {
   text-align: center;
   line-height: 4;
   position: relative;
-  top: 20%;
+  top: 30%;
 }
 #name {
   margin-left: 300px;
@@ -104,31 +105,33 @@ blockquote {
 /* ------------------------------------------- */
 
 .footer_container {
-  height: 200px;
+  height: 300px;
   display: flex;
   gap: 10em;
+  justify-content: center;
   align-items: baseline;
 }
 
 #newsletter {
   position: relative;
-  top: 60px;
+  top: 100px;
   left: 10%;
 }
 
 #btn_1 {
   position: relative;
-  top: 70px;
+  top: 120px;
   right: 10%;
 }
 
 #bottom {
   background-color: rgb(103, 102, 106);
-  height: 70px;
+  height: 100px;
 }
 
 #message {
 text-align: center;
 position: relative;
-top: 20px;
+top: 40px;
+color: #ddd;
 }
