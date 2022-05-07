@@ -103,6 +103,7 @@ blockquote {
 }
 /* Main second-section ends here */
 /* ------------------------------------------- */
+/* Footer styling stars from here */
 
 .footer_container {
   height: 300px;
@@ -115,13 +116,13 @@ blockquote {
 #newsletter {
   position: relative;
   top: 100px;
-  left: 10%;
+  left: 8%;
 }
 
 #btn_1 {
   position: relative;
   top: 120px;
-  right: 10%;
+  right: 20%;
 }
 
 #bottom {
@@ -129,9 +130,25 @@ blockquote {
   height: 100px;
 }
 
-#message {
+#message, #reference{
 text-align: center;
 position: relative;
-top: 40px;
+top: 30px;
 color: #ddd;
+margin-bottom: 0;
 }
+
+#reference, a {
+  text-align: center;
+  font-size: 0.8em;
+  color: rgba(221, 221, 221, 0.393);
+}
+a {
+  text-decoration: none;
+  padding: 10px 10px 10px 0;
+}
+
+a:hover {
+  color: yellow;
+}
+/* Footer styling ended */
