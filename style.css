@@ -29,13 +29,13 @@ header {
   margin: 8% 40% 10% 10%;
 }
 
-#btn_1 {
+.btn {
   padding: 8px 30px;
   border-radius: 10px;
   border-style: none;
 }
 
-#btn_1:hover {
+.btn:hover {
   box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.1);
 }
 
@@ -103,3 +103,32 @@ blockquote {
 /* Main second-section ends here */
 /* ------------------------------------------- */
 
+.footer_container {
+  height: 200px;
+  display: flex;
+  gap: 10em;
+  align-items: baseline;
+}
+
+#newsletter {
+  position: relative;
+  top: 60px;
+  left: 10%;
+}
+
+#btn_1 {
+  position: relative;
+  top: 70px;
+  right: 10%;
+}
+
+#bottom {
+  background-color: rgb(103, 102, 106);
+  height: 70px;
+}
+
+#message {
+text-align: center;
+position: relative;
+top: 20px;
+}
