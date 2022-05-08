@@ -25,6 +25,12 @@ h1 {
   color: rgb(85, 84, 84);
 }
 
+@media screen and (max-width: 800px){
+  .flex-container {
+    gap: 110px;
+  }
+}
+
 .navbar-menu {
   list-style: none;
   display: flex;
@@ -33,7 +39,7 @@ h1 {
 
 .heading {
   width: 330px;
-  margin: 10% 0 0 20%;
+  margin: 80px 0 0 80px;
 }
 
 .btn {
@@ -163,3 +169,4 @@ a:hover {
   color: yellow;
 }
 /* Footer styling ended */
+
