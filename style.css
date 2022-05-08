@@ -145,6 +145,12 @@ blockquote {
   align-items: baseline;
 }
 
+@media screen and (max-width: 600px) {
+  .footer_container {
+    gap: 5em;
+  }
+}
+
 #newsletter {
   position: relative;
   top: 100px;
