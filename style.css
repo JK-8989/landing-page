@@ -27,7 +27,13 @@ h1 {
 
 @media screen and (max-width: 800px){
   .flex-container {
-    gap: 110px;
+    gap: 100px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .flex-container {
+    gap: 600px;
   }
 }
 
