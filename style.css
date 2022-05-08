@@ -92,10 +92,11 @@ header {
 @media  screen and (max-width: 800px) {
   .section_1 {
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .section_2 {
-    margin-top: 240px;
+    margin-top: 280px;
   }
 }
 
